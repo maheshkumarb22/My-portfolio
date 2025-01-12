@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hi, I'm B.Maheshkumar</h1>
+            <p>A passionate Frontend developer.</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2><span class="highlight">About Me</span></h2>
+        <p>I have hands-on experience with HTML, CSS, and JavaScript, and I am familiar with JavaScript library like
+            React js. I enjoy transforming design concepts into responsive and interactive web pages that provide an
+            excellent user experience. My goal is to continuously learn and improve my skills while contributing to
+            exciting projects.<br><br>I am familiar with responsive design principles, ensuring that my websites look great on various devices and screen sizes. Additionally, I have started exploring frontend frameworks like React, which help streamline the development process and enhance user experience. I am committed to continuous learning and improvement, regularly seeking out new resources and tutorials to expand my skill set.<br><br>Collaboration and communication are important to me, as I believe that working with others can lead to better solutions and innovative ideas. I am excited to contribute to projects that make a positive impact and to grow as a developer in this ever-evolving field.</p>
+    </section>
+
+    <section id="skills">
+        <h2><span class="highlight">My Skills</span></h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React js</li>
+        </ul>
+    </section>
+    <section id="projects">
+    <h2><span class="highlight">My Projects -</span></h2>
+
+        <div class="project">
+            <img src="images/project 2.png">
+            <div class="pr2">
+                <h1>1.Web-Based Calculator</h1>
+                <p>The Web-Based Calculator is a user-friendly, interactive web application designed to perform<br>
+                    basic arithmetic operations such as addition, subtraction, multiplication, and division. The<br>
+                    project aims to provide a simple yet effective tool for users to perform calculations directly<br>
+                    in their web browsers without the need for any additional software.</p>
+            </div>
+        </div><br><br>
+        <h2 style="margin-left: 15px;"><span class="highlight">Project Video</span> </h2><br>
+        <video controls>
+        <source src="videos/calculator video.mp4" type="video/mp4">
+        </video><br><br><hr><br><br>
+        <div class="project1">
+            <img src="images/aviate pic.png">
+            <div class="pr3">
+                <h1>2.Gym E-Commerce Website</h1>
+                <p>The Gym E-Commerce Website is a comprehensive online platform designed to cater to fitness enthusiasts and gym-goers. It offers a wide range of fitness products, including gym equipment, apparel, supplements, and accessories, all in one convenient location. The website aims to provide an engaging shopping experience, making it easy for users to find and purchase high-quality fitness products.</p>
+            </div>
+        </div><br><br>
+        <h2><span class="highlight">Project Video</span></h2><br>
+        <video controls>
+        <source src="videos/avaite video.mp4" type="video/mp4">
+        </video><br><br><hr>
+    </section>
+        <h2 style="margin-left: 20px;"><span class="highlight">My Resume</span></h2><br>
+
+        <embed src="images/Maheshkumar.B.pdf" type="application/pdf"><br><br><hr>
+            
+       
+    <section id="contact">
+    <div class="container">
+        <h4><span class="highlight">Contact Me</span></h4>
+        <form id="contact-form" action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Me</h3>
+                <p>Email: <a href="mailto:your-email@example.com">maheshkumar.29404@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/maheshkumar-b-6222b126a">Linkedin</a></li>
+                    <li><a href="https://github.com/maheshkumarb22">GitHub</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 B.Maheshkumar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
